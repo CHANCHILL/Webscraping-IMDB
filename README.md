@@ -6,10 +6,10 @@ This project involves web scraping the IMDb website to extract data on the Top 2
 
 Tech Stack:
 
-Selenium – To automate web browsing and retrieve the dynamically generated HTML content.
-BeautifulSoup – To parse and extract relevant data such as movie titles, release years, ratings, and ranks.
-openpyxl – To write and format the scraped data into an Excel file.
-Python – Core scripting
+1. Selenium – To automate web browsing and retrieve the dynamically generated HTML content.
+2. BeautifulSoup – To parse and extract relevant data such as rank, movie titles, release years and ratings
+3. openpyxl – To write and load the scraped data into an Excel file.
+4. Python – Core scripting
 
 
 Data Extracted:
@@ -20,5 +20,4 @@ Data Extracted:
 4. IMDb Rating
 
 Outcome:
-A clean, structured Excel file containing the Top 250 IMDb movies, useful for further data analysis or visualization.
-Demonstrates proficiency in web scraping, handling dynamic content, data cleaning, and basic data storage/export.
+A clean, structured Excel file containing the Top 250 IMDb movies, useful for further data analysis or visualization demonstrating proficiency in web scraping, handling dynamic content, data cleaning, and basic data storage/export.
